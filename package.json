@@ -1,0 +1,18 @@
+{
+  "name": "ux_integration_demo",
+  "version": "1.0.0",
+  "description": "-Node \r -Express \r -Handlebars \r -Templated UX from elements.envato.com",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dani Roxberry",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.13.3",
+    "express-handlebars": "^2.0.1"
+  },
+  "devDependencies": {
+    "handlebars-helper-css": "^0.1.0"
+  }
+}
