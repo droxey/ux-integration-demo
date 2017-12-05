@@ -4,7 +4,7 @@ var app = express();
 app.use(express.static(__dirname + "/public"));
 
 var exphbs = require("express-handlebars");
-app.engine("handlebars", exphbs({ defaultLayout: "main" }));
+app.engine("handlebars", exphbs({ defaultLayout: "admin" }));
 app.set("view engine", "handlebars");
 
 var routes = require("./controllers/demoController.js");
